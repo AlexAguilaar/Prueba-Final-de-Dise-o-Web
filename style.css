@@ -12,47 +12,167 @@
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
 
-    .copywrite{
-        text-align: center;}
+    .copywrite {
+        text-align: center;
+    }
 
-    .logoicncontacts{
+    .logoicncontacts {
         display: flex;
-    justify-content: space-around;
-   }
+        justify-content: space-around;
+        align-items: center;
+    }
 
-    .uno{
-        align-items: start;    }
+    .footer1 {
+        align-items: start;
+    }
 
-    .dos{
+    .footer2 {
         align-items: center;
         display: flex;
-        }
-    
-    
+    }
 
-    .tres{
+
+
+    .footer3 {
         align-items: end;
         display: inline-block;
         align-items: center;
-        
+
     }
 
-    .tres p{
+    .footer3 p {
         font-size: 14px;
     }
 
-    .logoicncontacts a{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    position: relative;
+    .logoicncontacts a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        position: relative;
     }
 
     .logoicncontacts a:hover {
         color: #000000;
-        background-color: #ffffff; 
+        background-color: #ffffff;
+    }
+
+
+    
+
+    /*notebook*/
+    @media screen and (max-width: 950px) {
+        .copywrite {
+            text-align: center;
+        }
+
+        .logoicncontacts {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer1 {
+        
+        }
+
+        .footer2 {
+            
+            display: flex;
+        }
+
+
+
+        .footer3 {
+        
+            display: inline-block;
+            align-items: center;
+            
+
+        }
+
+        .footer3 p {
+            font-size: 10px;
+        }
+
+        .logoicncontacts a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .logoicncontacts a:hover {
+            color: #000000;
+            background-color: #ffffff;
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 951px) {
+        .copywrite {
+            text-align: center;
+        }
+
+        .logoicncontacts {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer1 {
+            align-items: start;
+            max-width: 200px;
+        }
+
+        .footer2 {
+            align-items: center;
+            display: flex;
+            max-width: 200px;
+        }
+
+
+
+        .footer3 {
+            align-items: end;
+            display: inline-block;
+            align-items: center;
+            max-width: 200px;
+
+        }
+
+
+        .footer3 p {
+            font-size: 10px;
+            
+        }
+
+        .footer3 p br{
+            display: none;
+        }
+
+        .logoicncontacts a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .logoicncontacts a:hover {
+            color: #000000;
+            background-color: #ffffff;
+        }
     }
